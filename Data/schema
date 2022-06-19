@@ -265,4 +265,4 @@ ON (ri.emp_no = de.emp_no)
 INNER JOIN departments as d
 ON (de.dept_no = d.dept_no)
 WHERE d.dept_name in ('Sales', 'Development')
-ORDER BY d.dept_name DESC;
+ 
